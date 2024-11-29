@@ -36,12 +36,6 @@ This repository contains a **GPT Model** built using **Streamlit** and powered b
    git clone https://github.com/pratham-asthana/Chatter-G-PT-.git
    cd Chatter-G-PT-
 ```
-
-## File Structure
-
-gpt-model-app/ │ ├── app.py # Main Streamlit application ├── utils.py # Helper functions for API interaction ├── requirements.txt # Python dependencies ├── README.md # Project documentation └── .env.example # Template for setting environment variables
-
-
 ---
 
 ## How It Works
