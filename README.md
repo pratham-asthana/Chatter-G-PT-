@@ -1,4 +1,4 @@
-# GPT Model Web App
+# Chatter-G (PT)
 
 This repository contains a **GPT Model** built using **Streamlit** and powered by **Google's API key**. The application provides an intuitive user interface to interact with the model for generating text-based responses.
 
