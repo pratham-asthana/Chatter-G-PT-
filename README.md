@@ -16,7 +16,8 @@ This repository contains a **GPT Model** built using **Streamlit** and powered b
 ## Demo
 
 ![App Screenshot](Ss1.png) 
-![App_screenshot 2](Ss2.png)
+![App Screenshot 2](Ss3.png)
+![App_screenshot 3](Ss2.png)
 
 ---
 
