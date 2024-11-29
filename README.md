@@ -15,8 +15,8 @@ This repository contains a **GPT Model** built using **Streamlit** and powered b
 
 ## Demo
 
-![App Screenshot](Chatter-G-PT-/Ss1.png) 
-![App_screenshot 2](Chatter-G-PT-/Ss2.png)
+![App Screenshot](Ss1.png) 
+![App_screenshot 2](Ss2.png)
 
 ---
 
