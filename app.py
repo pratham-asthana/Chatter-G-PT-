@@ -1,11 +1,11 @@
 #importing necessary libraries.
 import streamlit as st                 #importing streamlit for building an interactive GUI.
 import os                              #importing os to access environmental variables on the system.
-from dotenv import load_dotenv         #importing this to load environmental variables(API key here) to runtime environment.
+       #importing this to load environmental variables(API key here) to runtime environment.
 import google.generativeai as gen_ai   #importing google's generativeAI module to use Google's AI model.
 
 #loading .env file (containing API key).
-load_dotenv()
+
 
 #setting page configuration like the title, icon, layout, etc.
 st.set_page_config(
@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 #assigning API key to a variable GOOGLE_API_KEY.
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = st.secrets("GOOGLE_API_KEY")
 
 #setting up the model. 
 gen_ai.configure(api_key = GOOGLE_API_KEY)
